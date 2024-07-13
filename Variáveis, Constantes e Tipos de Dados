@@ -1,0 +1,30 @@
+#  Exercicio 1- Variáveis, Constantes e Tipos de Dados- apostila lógica 01
+# Enunciado: Crie um algoritmo que leia dois números inteiros e exiba a soma, subtração,
+multiplicação e divisão deles.
+# Resolução:
+
+n1 = int(input("Digite um numero inteiro: "))
+n2 = int(input("Digite outro numero inteiro: "))
+soma = n1 + n2
+subtracao = n1 - n2
+multiplicacao = n1 * n2
+divisao = n1 / n2
+
+print(n1, "+", n2, "=", soma)
+print(n1, "-", n2, "=", subtracao)
+print(n1, "*", n2, "=", multiplicacao)
+print(n1, "/", n2, "=", divisao)
+
+# Exercicio 2 Variáveis, Constantes e Tipos de Dados- apostila lógica 01
+# Enunciado: Faça um algoritmo que leia o nome, a idade e o salário de uma pessoa e exiba
+essas informações formatadas.
+# Resolução:
+
+nome = (input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
+salario = (input("Digite seu salario: "))
+
+
+print("Nome: ", nome)
+print("Idade: ", idade)
+print("Salário: ", salario)
