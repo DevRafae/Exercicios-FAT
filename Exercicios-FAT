@@ -1,0 +1,30 @@
+programa {
+  funcao inicio() {
+    cadeia nome 
+    inteiro nota1
+    inteiro nota2
+    inteiro nota3
+    inteiro nota4
+    real media
+
+    escreva("Digite seu nome: ")
+    leia(nome)
+    escreva("Escreva sua nota do primeiro semestre: ")
+    leia(nota1)
+    escreva("Escreva sua nota do segundo semestre: ")
+    leia(nota2)
+    escreva("Escreva sua nota do terceiro semestre: ")
+    leia(nota3)
+    escreva("Escreva sua nota do quarto semestre: ")
+    leia(nota4)
+
+    media = (nota1 + nota2 + nota3 + nota4) / 4.0
+    escreva("Sua média com base nas notas obtidas nos 4 semestres é: ", media, "\n")
+
+    se (media >= 7) {
+      escreva("Parabéns, ", nome, " você passou! :)"
+    } senao {
+      escreva("Sentimos muito, ", nome, ", você não conseguiu nota suficiente para passar, mas pode tentar novamente!")
+    }
+  }
+}
